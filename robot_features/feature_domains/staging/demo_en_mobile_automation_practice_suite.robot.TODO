@@ -1,0 +1,12 @@
+*** Settings ***
+Documentation              Formal ATDD for Automation Practice website.
+...                        Using a single Gherkin style
+Library                    AppiumLibrary
+
+*** Variables ***
+${DEV.APPIUM_SERVER}       http://127.0.0.1:4723/wd/hub
+${DEV.PLATFORM_VERSION}    6.0.1
+${DEV.PLATFORM_NAME}       Android
+${DEV.DEVICE_NAME}         MOB_TEST
+${DEV.PACKAGE_NAME}        x
+${DEV.ACTIVITY_NAME}       x
